@@ -4,7 +4,6 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    HomePage: typeof import('./src/components/HomePage/HomePage.vue')['default']
     HomePageAppBarHeader: typeof import('./src/components/HomePageAppBarHeader.vue')['default']
     HomePageAppBarToolBar: typeof import('./src/components/HomePageAppBarToolBar.vue')['default']
     HomePageHeaderNotificationButton: typeof import('./src/components/HomePageHeaderNotificationButton.vue')['default']
@@ -19,16 +18,9 @@ declare module 'vue' {
     IAntDesignSearchOutlined: typeof import('~icons/ant-design/search-outlined')['default']
     IAntDesignUnorderedListOutlined: typeof import('~icons/ant-design/unordered-list-outlined')['default']
     IBxBxsGridAlt: typeof import('~icons/bx/bxs-grid-alt')['default']
-    ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
-    ICarbonAccessibilityAlt: typeof import('~icons/carbon/accessibility-alt')['default']
-    ICarbonAccessibilityColor: typeof import('~icons/carbon/accessibility-color')['default']
-    ICarbonAccountBox: typeof import('~icons/carbon/account-box')['default']
     IClarityImageGalleryLine: typeof import('~icons/clarity/image-gallery-line')['default']
-    IDashiconsArrowDownAlt2: typeof import('~icons/dashicons/arrow-down-alt2')['default']
-    IEtNewspaper: typeof import('~icons/et/newspaper')['default']
     IFaSolidMask: typeof import('~icons/fa-solid/mask')['default']
     IIcomoonFreeNewspaper: typeof import('~icons/icomoon-free/newspaper')['default']
-    IMdiAccountBox: typeof import('~icons/mdi/account-box')['default']
     IUilJackhammer: typeof import('~icons/uil/jackhammer')['default']
     Logo: typeof import('./src/components/SvgIcon/Logo.vue')['default']
     NAvatar: typeof import('naive-ui')['NAvatar']
