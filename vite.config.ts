@@ -4,6 +4,8 @@ import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
 import {
   NaiveUiResolver,
 } from 'unplugin-vue-components/resolvers'
@@ -45,10 +47,10 @@ export default defineConfig({
       dts: true,
       resolvers: [
         NaiveUiResolver(),
+        IconsResolver(),
       ],
     }),
-
-    // https://github.com/antfu/unocss
+    Icons(),
   ],
 
   optimizeDeps: {
