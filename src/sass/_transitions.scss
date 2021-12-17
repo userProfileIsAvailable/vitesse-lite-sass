@@ -1,0 +1,12 @@
+$duration-complex: 375ms;
+$duration-enteringScreen: 225ms;
+$duration-leavingScreen: 195ms;
+$duration-short: 250ms;
+$duration-shorter: 200ms;
+$duration-shortest: 150ms;
+$duration-standard: 300ms;
+
+$easing-easeIn: cubic-bezier(0.4, 0, 1, 1);
+$easing-easeInOut: cubic-bezier(0.4, 0, 0.2, 1);
+$easing-easeOut: cubic-bezier(0, 0, 0.2, 1);
+$easing-sharp: cubic-bezier(0.4, 0, 0.6, 1);

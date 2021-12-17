@@ -1,0 +1,134 @@
+@mixin body-1 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.body-1 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+@mixin body-2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.body-2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+@mixin caption {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.caption {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+@mixin h1 {
+    font-size: clamp(2.625rem, 1.2857rem + 3.5714vw, 4rem);
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.1142857142857143;
+}
+.h1 {
+    font-size: clamp(2.625rem, 1.2857rem + 3.5714vw, 4rem);
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.1142857142857143;
+}
+@mixin h2 {
+    font-size: clamp(1.5rem, 0.9643rem + 1.4286vw, 2.25rem);
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.2222222222222223;
+}
+.h2 {
+    font-size: clamp(1.5rem, 0.9643rem + 1.4286vw, 2.25rem);
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.2222222222222223;
+}
+@mixin h3 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2222222222222223;
+}
+.h3 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2222222222222223;
+}
+@mixin h4 {
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.h4 {
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+@mixin h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+@mixin h6 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+.h6 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+@mixin subtitle-1 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.3333333333333333;
+}
+.subtitle-1 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.3333333333333333;
+}
+@mixin subtitle-2 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.57;
+}
+.subtitle-2 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.57;
+}

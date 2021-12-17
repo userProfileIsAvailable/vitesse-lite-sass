@@ -1,9 +1,7 @@
 <template>
-  <div class="body-1">
-    home
-  </div>
+  <div>upload</div>
 </template>
-<script lang="ts" setup>
+<script lang='ts' setup>
 
 </script>
 <style lang="scss" scoped>
