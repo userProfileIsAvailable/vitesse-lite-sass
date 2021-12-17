@@ -50,7 +50,9 @@ export default defineConfig({
         IconsResolver(),
       ],
     }),
-    Icons(),
+    Icons({
+      defaultStyle: 'width:2.4rem; height:2.4rem;', // Style apply to icons
+    }),
 
     // https://github.com/antfu/unocss
   ],
