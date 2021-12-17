@@ -5,11 +5,13 @@
 declare module 'vue' {
   export interface GlobalComponents {
     HomePage: typeof import('./src/components/HomePage/HomePage.vue')['default']
+    HomePageHeaderNotificationButton: typeof import('./src/components/HomePageHeaderNotificationButton.vue')['default']
     ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
     ICarbonAccessibilityAlt: typeof import('~icons/carbon/accessibility-alt')['default']
     ICarbonAccessibilityColor: typeof import('~icons/carbon/accessibility-color')['default']
     ICarbonAccountBox: typeof import('~icons/carbon/account-box')['default']
     IMdiAccountBox: typeof import('~icons/mdi/account-box')['default']
+    Logo: typeof import('./src/components/SvgIcon/Logo.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
     NDialogProvider: typeof import('naive-ui')['NDialogProvider']
