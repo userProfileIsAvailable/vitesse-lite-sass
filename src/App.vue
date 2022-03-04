@@ -2,10 +2,6 @@
   <router-view />
   <VueQueryDevTools />
 </template>
-<script lang="ts">
+<script lang="ts" setup>
 import { VueQueryDevTools } from 'vue-query/devtools'
-export default defineComponent({
-  name: 'App',
-  components: { VueQueryDevTools },
-})
 </script>
