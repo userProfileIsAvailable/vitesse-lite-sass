@@ -11,6 +11,7 @@
     "@iconify/json": "^1.1.443",
     "@vueuse/core": "^7.2.2",
     "vue": "^3.2.24",
+    "vue-query": "^1.19.1",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
@@ -19,7 +20,6 @@
     "@vitejs/plugin-vue": "^1.10.2",
     "@vue/test-utils": "^2.0.0-rc.17",
     "eslint": "^8.4.1",
-    "naive-ui": "^2.22.0",
     "pnpm": "^6.23.6",
     "sass": "^1.45.0",
     "sass-loader": "^12.4.0",
